@@ -1,7 +1,7 @@
 import { Check, Copy, Info } from "lucide-react";
 
 import { useCopy } from "@/shared/business-logic/use-copy";
-import { Button } from "@/shared/ui/button";
+import { Button } from "@zenml/hashi/ui/button";
 import { CodeBlock } from "@/shared/ui/CodeBlock";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/shared/ui/tooltip";
 

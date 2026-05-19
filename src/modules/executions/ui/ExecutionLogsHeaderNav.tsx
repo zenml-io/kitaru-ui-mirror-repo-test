@@ -1,5 +1,5 @@
 import { ArrowLeft } from "lucide-react";
-import { Button } from "@/shared/ui/button";
+import { Button } from "@zenml/hashi/ui/button";
 import { Separator } from "@/shared/ui/separator";
 import { ToggleLeftPanelButton } from "@/shared/ui/ThreePanelLayoutContext";
 

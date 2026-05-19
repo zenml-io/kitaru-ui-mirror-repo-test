@@ -1,6 +1,6 @@
 import { AlertCircle } from "lucide-react";
 import type { FallbackProps } from "react-error-boundary";
-import { Button } from "@/shared/ui/button";
+import { Button } from "@zenml/hashi/ui/button";
 import {
 	Empty,
 	EmptyContent,

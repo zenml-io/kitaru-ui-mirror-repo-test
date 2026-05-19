@@ -1,4 +1,4 @@
-import { Button } from "@/shared/ui/button";
+import { Button } from "@zenml/hashi/ui/button";
 
 type DeviceVerificationSuccessStateProps = {
 	countdown: number;

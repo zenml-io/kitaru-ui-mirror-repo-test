@@ -1,4 +1,4 @@
-import { Button } from "@/shared/ui/button";
+import { Button } from "@zenml/hashi/ui/button";
 import {
 	Empty,
 	EmptyContent,
@@ -27,7 +27,6 @@ export function DefaultPageNotFound() {
 			</EmptyHeader>
 			<EmptyContent>
 				<Button
-					nativeButton={false}
 					className="min-w-44"
 					render={<Link to="/flows" />}
 				>

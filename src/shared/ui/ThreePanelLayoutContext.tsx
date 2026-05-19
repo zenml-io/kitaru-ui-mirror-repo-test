@@ -8,7 +8,7 @@ import {
 	type ReactNode,
 } from "react";
 import { PanelLeft, PanelRight } from "lucide-react";
-import { Button } from "./button";
+import { Button } from "@zenml/hashi/ui/button";
 
 type PanelApi = {
 	expand: () => void;

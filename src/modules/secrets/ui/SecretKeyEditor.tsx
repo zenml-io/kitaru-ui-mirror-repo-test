@@ -6,7 +6,7 @@ import {
 	type FieldArrayWithId,
 } from "react-hook-form";
 
-import { Button } from "@/shared/ui/button";
+import { Button } from "@zenml/hashi/ui/button";
 import { Field, FieldError } from "@/shared/ui/field";
 import { Input } from "@/shared/ui/input";
 import { Label } from "@/shared/ui/label";

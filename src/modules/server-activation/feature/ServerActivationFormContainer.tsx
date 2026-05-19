@@ -4,7 +4,7 @@ import {
 	type ServerActivationPayload,
 } from "@/modules/server-activation/domain/server-activation-schema";
 import { useActivateServerAndLogin } from "@/modules/server-activation/business-logic/use-activate-server-and-login";
-import { Button } from "@/shared/ui/button";
+import { Button } from "@zenml/hashi/ui/button";
 import { Field, FieldError, FieldGroup, FieldLabel } from "@/shared/ui/field";
 import { Input } from "@/shared/ui/input";
 import { zodResolver } from "@hookform/resolvers/zod";

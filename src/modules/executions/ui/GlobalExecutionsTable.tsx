@@ -19,7 +19,7 @@ import {
 	getCoreRowModel,
 	useReactTable,
 } from "@tanstack/react-table";
-import { Button } from "@/shared/ui/button";
+import { Button } from "@zenml/hashi/ui/button";
 import { ExecutionName } from "./ExecutionName";
 import type { GlobalExecutionsTableRow } from "../business-logic/to-global-executions-rows";
 

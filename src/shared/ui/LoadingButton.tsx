@@ -1,5 +1,5 @@
 import type { ComponentProps } from "react";
-import { Button } from "./button";
+import { Button } from "@zenml/hashi/ui/button";
 import { Loader } from "lucide-react";
 
 type Props = ComponentProps<typeof Button> & {

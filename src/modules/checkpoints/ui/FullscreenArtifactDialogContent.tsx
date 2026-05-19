@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { Button } from "@/shared/ui/button";
+import { Button } from "@zenml/hashi/ui/button";
 import {
 	DialogClose,
 	DialogContent,
