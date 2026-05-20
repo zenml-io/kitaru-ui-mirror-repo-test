@@ -1,4 +1,4 @@
-import { Skeleton } from "@/shared/ui/skeleton";
+import { Skeleton } from "@zenml/hashi/ui/skeleton";
 
 export function CheckpointDetailPanelConfigurationSkeleton() {
 	return (

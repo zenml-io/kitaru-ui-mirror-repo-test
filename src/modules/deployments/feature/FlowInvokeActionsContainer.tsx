@@ -1,5 +1,5 @@
 import { env } from "@/modules/root/domain/env";
-import { Skeleton } from "@/shared/ui/skeleton";
+import { Skeleton } from "@zenml/hashi/ui/skeleton";
 import { Suspense } from "react";
 import { useCurrentDeployment } from "../business-logic/use-current-deployment";
 import { InvocationUrlBlock } from "../ui/InvocationUrlBlock";
