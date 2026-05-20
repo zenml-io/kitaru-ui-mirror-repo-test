@@ -9,7 +9,7 @@ import {
 import { Button } from "@zenml/hashi/ui/button";
 import { Field, FieldError } from "@/shared/ui/field";
 import { Input } from "@/shared/ui/input";
-import { Label } from "@/shared/ui/label";
+import { Label } from "@zenml/hashi/ui/label";
 
 import type { SecretFormValues } from "../business-logic/secret-form-schema";
 
