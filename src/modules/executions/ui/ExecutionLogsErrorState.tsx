@@ -6,7 +6,7 @@ import {
 	EmptyHeader,
 	EmptyMedia,
 	EmptyTitle,
-} from "@/shared/ui/empty";
+} from "@zenml/hashi/ui/empty";
 
 type ExecutionLogsErrorStateProps = {
 	error: unknown;

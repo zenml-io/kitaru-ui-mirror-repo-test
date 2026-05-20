@@ -6,7 +6,7 @@ import {
 	EmptyHeader,
 	EmptyMedia,
 	EmptyTitle,
-} from "@/shared/ui/empty";
+} from "@zenml/hashi/ui/empty";
 import { Link } from "@tanstack/react-router";
 import { ChevronLeft } from "lucide-react";
 

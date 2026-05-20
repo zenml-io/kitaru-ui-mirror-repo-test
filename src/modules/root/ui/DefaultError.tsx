@@ -6,7 +6,7 @@ import {
 	EmptyHeader,
 	EmptyMedia,
 	EmptyTitle,
-} from "@/shared/ui/empty";
+} from "@zenml/hashi/ui/empty";
 import type { ErrorComponentProps } from "@tanstack/react-router";
 import { AlertCircle, RefreshCcw } from "lucide-react";
 
