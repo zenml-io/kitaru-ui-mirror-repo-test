@@ -1,5 +1,5 @@
 import KitaruLogo from "@/assets/icons/kitaru-logo.svg?react";
-import { Skeleton } from "@zenml/hashi/ui/skeleton";
+import { Skeleton } from "@zenml/hashi/primitives/skeleton";
 import { Link, Outlet } from "@tanstack/react-router";
 import { Suspense } from "react";
 import { BreadcrumbsContainer } from "../feature/BreadcrumbsContainer";

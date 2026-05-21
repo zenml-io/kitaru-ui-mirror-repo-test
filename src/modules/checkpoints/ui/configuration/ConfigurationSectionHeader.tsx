@@ -1,5 +1,5 @@
 import { ChevronRight } from "lucide-react";
-import { CollapsibleTrigger } from "@/shared/ui/collapsible";
+import { CollapsibleTrigger } from "@zenml/hashi/primitives/collapsible";
 
 type ConfigurationSectionHeaderProps = {
 	label: string;

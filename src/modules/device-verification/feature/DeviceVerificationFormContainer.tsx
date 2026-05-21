@@ -4,7 +4,7 @@ import {
 	type VerificationForm,
 } from "@/modules/device-verification/domain/device-verification-form-schema";
 import type { VerifyDeviceVariables } from "@/modules/device-verification/domain/verify-device";
-import { Button } from "@zenml/hashi/ui/button";
+import { Button } from "@zenml/hashi/primitives/button";
 import { Checkbox } from "@/shared/ui/checkbox";
 import { Field, FieldError, FieldGroup, FieldLabel } from "@/shared/ui/field";
 import { zodResolver } from "@hookform/resolvers/zod";

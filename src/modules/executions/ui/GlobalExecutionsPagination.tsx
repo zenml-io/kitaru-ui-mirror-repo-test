@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { Button } from "@zenml/hashi/ui/button";
+import { Button } from "@zenml/hashi/primitives/button";
 
 type GlobalExecutionsPaginationProps = {
 	page: number;

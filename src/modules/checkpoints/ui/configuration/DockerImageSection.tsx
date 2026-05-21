@@ -1,8 +1,8 @@
 import { Check, Copy, ExternalLink } from "lucide-react";
 import type { DockerImage } from "@/modules/builds/domain/build";
 import { useCopy } from "@/shared/business-logic/use-copy";
-import { Button, buttonVariants } from "@zenml/hashi/ui/button";
-import { Collapsible, CollapsibleContent } from "@/shared/ui/collapsible";
+import { Button, buttonVariants } from "@zenml/hashi/primitives/button";
+import { Collapsible, CollapsibleContent } from "@zenml/hashi/primitives/collapsible";
 import { cn } from "@/shared/utils/styles";
 import { ConfigurationSectionHeader } from "./ConfigurationSectionHeader";
 import { DockerCodeBlock } from "./DockerCodeBlock";

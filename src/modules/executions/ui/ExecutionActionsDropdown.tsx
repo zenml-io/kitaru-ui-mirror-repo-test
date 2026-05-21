@@ -1,4 +1,4 @@
-import { Button } from "@zenml/hashi/ui/button";
+import { Button } from "@zenml/hashi/primitives/button";
 import {
 	DropdownMenu,
 	DropdownMenuContent,

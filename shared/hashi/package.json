@@ -5,9 +5,10 @@
 	"type": "module",
 	"description": "Hashi — ZenML shared UI design system (tokens + primitives).",
 	"exports": {
-		".": "./src/index.ts",
-		"./globals.css": "./src/globals.css",
-		"./ui/*": "./src/ui/*.tsx",
+		"./globals.css": "./src/styles/globals.css",
+		"./primitives/*": "./src/primitives/*.tsx",
+		"./components/*": "./src/components/*.tsx",
+		"./hooks/*": "./src/hooks/*.ts",
 		"./lib/*": "./src/lib/*.ts"
 	},
 	"dependencies": {

@@ -1,6 +1,6 @@
 import type { Stack } from "@/modules/stacks/domain/stack";
 import type { GroupedStackComponents } from "@/modules/stacks/business-logic/group-stack-components";
-import { Collapsible, CollapsibleContent } from "@/shared/ui/collapsible";
+import { Collapsible, CollapsibleContent } from "@zenml/hashi/primitives/collapsible";
 import { ConfigurationSectionHeader } from "./ConfigurationSectionHeader";
 import {
 	SingleStackComponentCard,

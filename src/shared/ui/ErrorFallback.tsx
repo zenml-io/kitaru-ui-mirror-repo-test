@@ -1,13 +1,13 @@
 import { AlertCircle } from "lucide-react";
 import type { FallbackProps } from "react-error-boundary";
-import { Button } from "@zenml/hashi/ui/button";
+import { Button } from "@zenml/hashi/primitives/button";
 import {
 	Empty,
 	EmptyContent,
 	EmptyHeader,
 	EmptyMedia,
 	EmptyTitle,
-} from "@zenml/hashi/ui/empty";
+} from "@zenml/hashi/primitives/empty";
 
 type ErrorFallbackProps = FallbackProps & {
 	title?: string;

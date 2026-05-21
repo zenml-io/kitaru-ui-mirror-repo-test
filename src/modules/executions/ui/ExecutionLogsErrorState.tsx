@@ -1,12 +1,12 @@
 import { AlertCircle } from "lucide-react";
-import { Button } from "@zenml/hashi/ui/button";
+import { Button } from "@zenml/hashi/primitives/button";
 import {
 	Empty,
 	EmptyContent,
 	EmptyHeader,
 	EmptyMedia,
 	EmptyTitle,
-} from "@zenml/hashi/ui/empty";
+} from "@zenml/hashi/primitives/empty";
 
 type ExecutionLogsErrorStateProps = {
 	error: unknown;

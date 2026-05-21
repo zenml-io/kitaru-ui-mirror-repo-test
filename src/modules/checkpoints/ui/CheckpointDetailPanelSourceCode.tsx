@@ -1,6 +1,6 @@
 import { Check, Copy, Expand, File, X } from "lucide-react";
 import { useCopy } from "@/shared/business-logic/use-copy";
-import { Button } from "@zenml/hashi/ui/button";
+import { Button } from "@zenml/hashi/primitives/button";
 import { CodeBlock } from "@/shared/ui/CodeBlock";
 import {
 	Dialog,

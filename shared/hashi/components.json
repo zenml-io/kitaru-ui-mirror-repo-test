@@ -5,21 +5,16 @@
 	"tsx": true,
 	"tailwind": {
 		"config": "",
-		"css": "src/assets/styles/tailwind.css",
+		"css": "src/styles/globals.css",
 		"baseColor": "neutral",
-		"cssVariables": true,
-		"prefix": ""
+		"cssVariables": true
 	},
 	"iconLibrary": "lucide",
-	"rtl": false,
 	"aliases": {
-		"components": "@zenml/hashi/components",
+		"components": "@zenml/hashi/primitives",
 		"utils": "@zenml/hashi/lib/utils",
 		"ui": "@zenml/hashi/primitives",
 		"lib": "@zenml/hashi/lib",
 		"hooks": "@zenml/hashi/hooks"
-	},
-	"menuColor": "default",
-	"menuAccent": "subtle",
-	"registries": {}
+	}
 }

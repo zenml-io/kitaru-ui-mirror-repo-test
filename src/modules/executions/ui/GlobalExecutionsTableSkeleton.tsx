@@ -1,4 +1,4 @@
-import { Skeleton } from "@zenml/hashi/ui/skeleton";
+import { Skeleton } from "@zenml/hashi/primitives/skeleton";
 
 const ROW_COUNT = 8;
 

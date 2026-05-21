@@ -8,7 +8,7 @@ import {
 	Collapsible,
 	CollapsibleContent,
 	CollapsibleTrigger,
-} from "@/shared/ui/collapsible";
+} from "@zenml/hashi/primitives/collapsible";
 
 const TYPE_LABEL: Record<StackComponentType, string> = {
 	alerter: "Alerter",
