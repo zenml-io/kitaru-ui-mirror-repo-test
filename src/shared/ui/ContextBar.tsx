@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import { cn } from "@/shared/utils/styles";
-import { Separator } from "@/shared/ui/separator";
+import { Separator } from "@zenml/hashi/primitives/separator";
 import { Tabs, TabsList, TabsTrigger } from "@/shared/ui/tabs";
 
 export type ContextBarTab<T extends string = string> = {

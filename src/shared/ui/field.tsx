@@ -3,7 +3,7 @@ import { cva, type VariantProps } from "class-variance-authority";
 
 import { cn } from "@/shared/utils/styles";
 import { Label } from "@zenml/hashi/primitives/label";
-import { Separator } from "@/shared/ui/separator";
+import { Separator } from "@zenml/hashi/primitives/separator";
 
 function FieldSet({ className, ...props }: React.ComponentProps<"fieldset">) {
 	return (

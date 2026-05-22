@@ -1,6 +1,6 @@
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@zenml/hashi/primitives/button";
-import { Separator } from "@/shared/ui/separator";
+import { Separator } from "@zenml/hashi/primitives/separator";
 import { ToggleLeftPanelButton } from "@/shared/ui/ThreePanelLayoutContext";
 
 type ExecutionLogsHeaderNavProps = {

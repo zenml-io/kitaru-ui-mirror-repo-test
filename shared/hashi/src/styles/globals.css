@@ -8,6 +8,14 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+/* Make Tailwind scan hashi's own primitives/components/hooks when consumed
+   from an app. Without this, classes that appear only inside hashi sources
+   (e.g. data-[orientation=vertical]:w-px on Separator) are never emitted by
+   the consumer's Tailwind build. Paths are relative to this CSS file. */
+@source "../primitives";
+@source "../components";
+@source "../hooks";
+
 /* ZenML reference palettes (raw tokens, no semantic mapping here) */
 @import "./zenml-palettes.css";
 
