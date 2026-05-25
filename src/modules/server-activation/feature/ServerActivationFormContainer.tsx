@@ -6,7 +6,7 @@ import {
 import { useActivateServerAndLogin } from "@/modules/server-activation/business-logic/use-activate-server-and-login";
 import { Button } from "@zenml/hashi/primitives/button";
 import { Field, FieldError, FieldGroup, FieldLabel } from "@/shared/ui/field";
-import { Input } from "@/shared/ui/input";
+import { Input } from "@zenml/hashi/primitives/input";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useQueryClient } from "@tanstack/react-query";
 import { useRouter } from "@tanstack/react-router";

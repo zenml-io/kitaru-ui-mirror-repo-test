@@ -3,7 +3,7 @@ import type {
 	StackComponent,
 	StackComponentType,
 } from "@/modules/stacks/domain/stack";
-import { Badge } from "@/shared/ui/badge";
+import { Badge } from "@zenml/hashi/primitives/badge";
 import {
 	Collapsible,
 	CollapsibleContent,
@@ -60,7 +60,7 @@ export function StackComponentGroupCard({
 				<span className="text-muted-foreground text-xs">
 					{TYPE_LABEL[type] ?? type}
 				</span>
-				<Badge variant="outline" size="md">
+				<Badge variant="outline">
 					{usedCount}
 				</Badge>
 				<span className="flex-1" />

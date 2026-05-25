@@ -13,8 +13,8 @@ import {
 	DialogTitle,
 } from "@/shared/ui/dialog";
 import { Field, FieldError, FieldLabel } from "@/shared/ui/field";
-import { Input } from "@/shared/ui/input";
-import { Switch } from "@/shared/ui/switch";
+import { Input } from "@zenml/hashi/primitives/input";
+import { Switch } from "@zenml/hashi/primitives/switch";
 import { WarningBanner } from "@/shared/ui/WarningBanner";
 
 import { getErrorMessage } from "../business-logic/get-error-message";

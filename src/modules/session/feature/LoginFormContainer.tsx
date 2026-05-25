@@ -4,7 +4,7 @@ import {
 } from "@/modules/session/domain/login-schema";
 import { Button } from "@zenml/hashi/primitives/button";
 import { Field, FieldError, FieldGroup, FieldLabel } from "@/shared/ui/field";
-import { Input } from "@/shared/ui/input";
+import { Input } from "@zenml/hashi/primitives/input";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useRouter, useSearch } from "@tanstack/react-router";
 import { Controller, useForm } from "react-hook-form";

@@ -12,7 +12,7 @@ import {
 	DialogTitle,
 } from "@/shared/ui/dialog";
 import { Field, FieldError, FieldLabel } from "@/shared/ui/field";
-import { Input } from "@/shared/ui/input";
+import { Input } from "@zenml/hashi/primitives/input";
 
 import { useCreateSecret } from "../business-logic/use-create-secret";
 import { useUpdateSecret } from "../business-logic/use-update-secret";
