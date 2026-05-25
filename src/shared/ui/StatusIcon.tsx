@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 import type { components } from "@/shared/api/openapi";
 import { cn } from "@/shared/utils/styles";
-import { Tooltip, TooltipContent, TooltipTrigger } from "./tooltip";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@zenml/hashi/primitives/tooltip";
 
 export type StatusIconVariant =
 	| components["schemas"]["ExecutionStatus"]

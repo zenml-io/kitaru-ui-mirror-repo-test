@@ -3,7 +3,7 @@ import { Check, Copy } from "lucide-react";
 import { useCopy } from "@/shared/business-logic/use-copy";
 import { Button } from "@zenml/hashi/primitives/button";
 import { CodeBlock } from "@/shared/ui/CodeBlock";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/shared/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@zenml/hashi/primitives/tabs";
 
 type Language = "curl" | "python" | "javascript" | "cli";
 

@@ -11,7 +11,7 @@ import {
 	DialogTrigger,
 } from "@/shared/ui/dialog";
 import { Separator } from "@zenml/hashi/primitives/separator";
-import { Tooltip, TooltipContent, TooltipTrigger } from "@/shared/ui/tooltip";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@zenml/hashi/primitives/tooltip";
 import { TruncatedText } from "@/shared/ui/truncated-text";
 import type { CheckpointSource } from "../domain/checkpoint";
 import { filePathToFileName } from "../util/file-path";
